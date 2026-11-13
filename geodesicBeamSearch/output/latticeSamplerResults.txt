@@ -1,0 +1,230 @@
+
+==================== ROUND 1 ====================
+36 seeds this round, 40 directions each, 7 radii
+10080 candidates after backward/sideways catalog filtering - 0 of 10080 thrown out for being too close to an already-catalogued point (0.0%)
+
+5299 of 10080 candidates thrown out by the blowup/stability precheck (52.6%)
+211 of 4781 successful candidates only succeeded via the parent-position failsafe on the last retry (4.4%)
+204 chaotic hits found this round.
+73 of 204 hits this round were distinct from every known attractor and every other hit found so far.
+75 of 204 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+  1/73 discovery trajectory saves failed (integration failure or timeout) and were skipped.
+
+==================== ROUND 2 ====================
+73 seeds this round, 40 directions each, 7 radii
+20440 candidates after backward/sideways catalog filtering - 0 of 20440 thrown out for being too close to an already-catalogued point (0.0%)
+
+9997 of 20440 candidates thrown out by the blowup/stability precheck (48.9%)
+486 of 10443 successful candidates only succeeded via the parent-position failsafe on the last retry (4.7%)
+1401 chaotic hits found this round.
+502 of 1401 hits this round were distinct from every known attractor and every other hit found so far.
+485 of 1401 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+  11/502 discovery trajectory saves failed (integration failure or timeout) and were skipped.
+Using the top 100 most chaotic of 502 new discoveries as round 3's seeds (every discovery still counts for novelty/catalog checks, capping only affects seeding).
+
+==================== ROUND 3 ====================
+100 seeds this round, 40 directions each, 7 radii
+28000 candidates after backward/sideways catalog filtering - 0 of 28000 thrown out for being too close to an already-catalogued point (0.0%)
+
+13114 of 28000 candidates thrown out by the blowup/stability precheck (46.8%)
+950 of 14886 successful candidates only succeeded via the parent-position failsafe on the last retry (6.4%)
+2419 chaotic hits found this round.
+992 of 2419 hits this round were distinct from every known attractor and every other hit found so far.
+948 of 2419 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+  25/992 discovery trajectory saves failed (integration failure or timeout) and were skipped.
+Using the top 100 most chaotic of 992 new discoveries as round 4's seeds (every discovery still counts for novelty/catalog checks, capping only affects seeding).
+
+==================== ROUND 4 ====================
+100 seeds this round, 40 directions each, 7 radii
+28000 candidates after backward/sideways catalog filtering - 0 of 28000 thrown out for being too close to an already-catalogued point (0.0%)
+
+13716 of 28000 candidates thrown out by the blowup/stability precheck (49.0%)
+1603 of 14284 successful candidates only succeeded via the parent-position failsafe on the last retry (11.2%)
+2463 chaotic hits found this round.
+1172 of 2463 hits this round were distinct from every known attractor and every other hit found so far.
+1294 of 2463 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+  90/1144 discovery trajectory saves failed (integration failure or timeout) and were skipped.
+Using the top 100 most chaotic of 1172 new discoveries as round 5's seeds (every discovery still counts for novelty/catalog checks, capping only affects seeding).
+
+==================== ROUND 5 ====================
+100 seeds this round, 40 directions each, 7 radii
+28000 candidates after backward/sideways catalog filtering - 0 of 28000 thrown out for being too close to an already-catalogued point (0.0%)
+
+Resuming from checkpoint: round 5, 100 seeds, 2739 hits found across earlier rounds.
+
+==================== ROUND 5 ====================
+100 seeds this round, 40 directions each, 7 radii
+27999 candidates after backward/sideways catalog filtering - 1 of 28000 thrown out for being too close to an already-catalogued point (0.0%)
+
+Resuming from checkpoint: round 5, 100 seeds, 2739 hits found across earlier rounds.
+Moved round 5's interrupted partial output aside to /home/isaac-dash/Documents/Chaos Theory Project/SpaceOfKnownAttractors/latticeMethod/latticeSamplerTopNSeedsOutput/round_005_interrupted_partial
+
+==================== ROUND 5 ====================
+100 seeds this round, 40 directions each, 7 radii
+27999 candidates after backward/sideways catalog filtering - 1 of 28000 thrown out for being too close to an already-catalogued point (0.0%)
+
+13604 of 27999 candidates thrown out by the blowup/stability precheck (48.6%)
+1116 of 14395 successful candidates only succeeded via the parent-position failsafe on the last retry (7.8%)
+2394 chaotic hits found this round.
+1186 of 2394 hits this round were distinct from every known attractor and every other hit found so far.
+1285 of 2394 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+  212/1142 discovery trajectory saves failed (integration failure or timeout) and were skipped.
+Using the top 100 most chaotic of 1186 new discoveries as round 6's seeds (every discovery still counts for novelty/catalog checks, capping only affects seeding).
+
+==================== ROUND 6 ====================
+100 seeds this round, 40 directions each, 7 radii
+27994 candidates after backward/sideways catalog filtering - 6 of 28000 thrown out for being too close to an already-catalogued point (0.0%)
+
+13315 of 27994 candidates thrown out by the blowup/stability precheck (47.6%)
+1245 of 14679 successful candidates only succeeded via the parent-position failsafe on the last retry (8.5%)
+2389 chaotic hits found this round.
+1002 of 2389 hits this round were distinct from every known attractor and every other hit found so far.
+1077 of 2389 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+  359/1002 discovery trajectory saves failed (integration failure or timeout) and were skipped.
+Using the top 100 most chaotic of 1002 new discoveries as round 7's seeds (every discovery still counts for novelty/catalog checks, capping only affects seeding).
+
+==================== ROUND 7 ====================
+100 seeds this round, 40 directions each, 7 radii
+27993 candidates after backward/sideways catalog filtering - 7 of 28000 thrown out for being too close to an already-catalogued point (0.0%)
+
+13210 of 27993 candidates thrown out by the blowup/stability precheck (47.2%)
+937 of 14783 successful candidates only succeeded via the parent-position failsafe on the last retry (6.3%)
+2446 chaotic hits found this round.
+869 of 2446 hits this round were distinct from every known attractor and every other hit found so far.
+932 of 2446 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+  393/869 discovery trajectory saves failed (integration failure or timeout) and were skipped.
+Using the top 100 most chaotic of 869 new discoveries as round 8's seeds (every discovery still counts for novelty/catalog checks, capping only affects seeding).
+
+==================== ROUND 8 ====================
+100 seeds this round, 40 directions each, 7 radii
+28000 candidates after backward/sideways catalog filtering - 0 of 28000 thrown out for being too close to an already-catalogued point (0.0%)
+
+13156 of 28000 candidates thrown out by the blowup/stability precheck (47.0%)
+901 of 14844 successful candidates only succeeded via the parent-position failsafe on the last retry (6.1%)
+2205 chaotic hits found this round.
+785 of 2205 hits this round were distinct from every known attractor and every other hit found so far.
+815 of 2205 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+  386/785 discovery trajectory saves failed (integration failure or timeout) and were skipped.
+Using the top 100 most chaotic of 785 new discoveries as round 9's seeds (every discovery still counts for novelty/catalog checks, capping only affects seeding).
+
+==================== ROUND 9 ====================
+100 seeds this round, 40 directions each, 7 radii
+28000 candidates after backward/sideways catalog filtering - 0 of 28000 thrown out for being too close to an already-catalogued point (0.0%)
+
+Resuming from checkpoint: round 9, 100 seeds, 6581 hits found across earlier rounds.
+Moved round 9's interrupted partial output aside to /home/isaac-dash/Documents/Chaos Theory Project/SpaceOfKnownAttractors/latticeMethod/latticeSamplerTopNSeedsOutput/round_009_interrupted_partial
+
+==================== ROUND 9 ====================
+100 seeds this round, 40 directions each, 7 radii
+27992 candidates after backward/sideways catalog filtering - 8 of 28000 thrown out for being too close to an already-catalogued point (0.0%)
+
+12853 of 27992 candidates thrown out by the blowup/stability precheck (45.9%)
+853 of 15139 successful candidates only succeeded via the parent-position failsafe on the last retry (5.6%)
+2094 chaotic hits found this round.
+844 of 2094 hits this round were distinct from every known attractor and every other hit found so far.
+856 of 2094 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+  496/844 discovery trajectory saves failed (integration failure or timeout) and were skipped.
+Using the top 100 most chaotic of 844 new discoveries as round 10's seeds (every discovery still counts for novelty/catalog checks, capping only affects seeding).
+
+==================== ROUND 10 ====================
+100 seeds this round, 40 directions each, 7 radii
+27995 candidates after backward/sideways catalog filtering - 5 of 28000 thrown out for being too close to an already-catalogued point (0.0%)
+
+12335 of 27995 candidates thrown out by the blowup/stability precheck (44.1%)
+726 of 15660 successful candidates only succeeded via the parent-position failsafe on the last retry (4.6%)
+2071 chaotic hits found this round.
+1011 of 2071 hits this round were distinct from every known attractor and every other hit found so far.
+1023 of 2071 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+
+Resuming from checkpoint: round 10, 100 seeds, 7425 hits found across earlier rounds.
+Moved round 10's interrupted partial output aside to /home/isaac-dash/Documents/Chaos Theory Project/SpaceOfKnownAttractors/latticeMethod/latticeSamplerTopNSeedsOutput/round_010_interrupted_partial
+
+==================== ROUND 10 ====================
+100 seeds this round, 40 directions each, 7 radii
+27984 candidates after backward/sideways catalog filtering - 16 of 28000 thrown out for being too close to an already-catalogued point (0.1%)
+
+12255 of 27984 candidates thrown out by the blowup/stability precheck (43.8%)
+753 of 15729 successful candidates only succeeded via the parent-position failsafe on the last retry (4.8%)
+1981 chaotic hits found this round.
+934 of 1981 hits this round were distinct from every known attractor and every other hit found so far.
+937 of 1981 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+  639/934 discovery trajectory saves failed (integration failure or timeout) and were skipped.
+Using the top 100 most chaotic of 934 new discoveries as round 11's seeds (every discovery still counts for novelty/catalog checks, capping only affects seeding).
+
+==================== ROUND 11 ====================
+100 seeds this round, 40 directions each, 7 radii
+27995 candidates after backward/sideways catalog filtering - 5 of 28000 thrown out for being too close to an already-catalogued point (0.0%)
+
+12548 of 27995 candidates thrown out by the blowup/stability precheck (44.8%)
+643 of 15447 successful candidates only succeeded via the parent-position failsafe on the last retry (4.2%)
+1879 chaotic hits found this round.
+897 of 1879 hits this round were distinct from every known attractor and every other hit found so far.
+909 of 1879 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+  680/897 discovery trajectory saves failed (integration failure or timeout) and were skipped.
+Using the top 100 most chaotic of 897 new discoveries as round 12's seeds (every discovery still counts for novelty/catalog checks, capping only affects seeding).
+
+==================== ROUND 12 ====================
+100 seeds this round, 40 directions each, 7 radii
+27992 candidates after backward/sideways catalog filtering - 8 of 28000 thrown out for being too close to an already-catalogued point (0.0%)
+
+12817 of 27992 candidates thrown out by the blowup/stability precheck (45.8%)
+639 of 15175 successful candidates only succeeded via the parent-position failsafe on the last retry (4.2%)
+1596 chaotic hits found this round.
+816 of 1596 hits this round were distinct from every known attractor and every other hit found so far.
+827 of 1596 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+  623/816 discovery trajectory saves failed (integration failure or timeout) and were skipped.
+Using the top 100 most chaotic of 816 new discoveries as round 13's seeds (every discovery still counts for novelty/catalog checks, capping only affects seeding).
+
+==================== ROUND 13 ====================
+100 seeds this round, 40 directions each, 7 radii
+27995 candidates after backward/sideways catalog filtering - 5 of 28000 thrown out for being too close to an already-catalogued point (0.0%)
+
+13189 of 27995 candidates thrown out by the blowup/stability precheck (47.1%)
+689 of 14806 successful candidates only succeeded via the parent-position failsafe on the last retry (4.7%)
+1429 chaotic hits found this round.
+749 of 1429 hits this round were distinct from every known attractor and every other hit found so far.
+756 of 1429 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+  608/749 discovery trajectory saves failed (integration failure or timeout) and were skipped.
+Using the top 100 most chaotic of 749 new discoveries as round 14's seeds (every discovery still counts for novelty/catalog checks, capping only affects seeding).
+
+==================== ROUND 14 ====================
+100 seeds this round, 40 directions each, 7 radii
+28000 candidates after backward/sideways catalog filtering - 0 of 28000 thrown out for being too close to an already-catalogued point (0.0%)
+
+Resuming from checkpoint: round 14, 100 seeds, 10821 hits found across earlier rounds.
+Moved round 14's interrupted partial output aside to /home/isaac-dash/Documents/Chaos Theory Project/SpaceOfKnownAttractors/latticeMethod/latticeSamplerTopNSeedsOutput/round_014_interrupted_partial
+
+==================== ROUND 14 ====================
+100 seeds this round, 40 directions each, 7 radii
+27973 candidates after backward/sideways catalog filtering - 27 of 28000 thrown out for being too close to an already-catalogued point (0.1%)
+
+Resuming from checkpoint: round 14, 100 seeds, 10821 hits found across earlier rounds.
+Moved round 14's interrupted partial output aside to /home/isaac-dash/Documents/Chaos Theory Project/SpaceOfKnownAttractors/latticeMethod/latticeSamplerTopNSeedsOutput/round_014_interrupted_partial
+
+==================== ROUND 14 ====================
+100 seeds this round, 40 directions each, 7 radii
+27973 candidates after backward/sideways catalog filtering - 27 of 28000 thrown out for being too close to an already-catalogued point (0.1%)
+
+13339 of 27973 candidates thrown out by the blowup/stability precheck (47.7%)
+599 of 14634 successful candidates only succeeded via the parent-position failsafe on the last retry (4.1%)
+1281 chaotic hits found this round.
+678 of 1281 hits this round were distinct from every known attractor and every other hit found so far.
+684 of 1281 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+  533/678 discovery trajectory saves failed (integration failure or timeout) and were skipped.
+Using the top 100 most chaotic of 678 new discoveries as round 15's seeds (every discovery still counts for novelty/catalog checks, capping only affects seeding).
+
+==================== ROUND 15 ====================
+100 seeds this round, 40 directions each, 7 radii
+27986 candidates after backward/sideways catalog filtering - 14 of 28000 thrown out for being too close to an already-catalogued point (0.1%)
+
+13377 of 27986 candidates thrown out by the blowup/stability precheck (47.8%)
+676 of 14609 successful candidates only succeeded via the parent-position failsafe on the last retry (4.6%)
+1315 chaotic hits found this round.
+701 of 1315 hits this round were distinct from every known attractor and every other hit found so far.
+708 of 1315 hits had the cascade disagree with curvature or D2 on the novelty verdict - see disagreements.csv.
+  559/701 discovery trajectory saves failed (integration failure or timeout) and were skipped.
+Using the top 100 most chaotic of 701 new discoveries as round 16's seeds (every discovery still counts for novelty/catalog checks, capping only affects seeding).
+
+==================== ROUND 16 ====================
+100 seeds this round, 40 directions each, 7 radii
+27973 candidates after backward/sideways catalog filtering - 27 of 28000 thrown out for being too close to an already-catalogued point (0.1%)

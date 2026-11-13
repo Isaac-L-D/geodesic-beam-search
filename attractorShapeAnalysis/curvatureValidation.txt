@@ -1,0 +1,107 @@
+Loaded 45 known attractors (excluding 10 already flagged unreliable for D2): ['bouali', 'burkeshaw', 'chen', 'dadras', 'dequanli', 'finance', 'hadley', 'halvorsen', 'laser', 'liuchen', 'lorenz', 'lorenz84', 'luchen', 'luchencheng', 'moorespiegel', 'nosehoover', 'pehlivanwei', 'qichen', 'rayleighbenard', 'rikitakedynamo', 'rossler', 'rucklidge', 'sakarya', 'sprotta', 'sprottb', 'sprottc', 'sprottd', 'sprotte', 'sprottf', 'sprottg', 'sprotth', 'sprottj', 'sprottjerk', 'sprottk', 'sprottl', 'sprottm', 'sprottn', 'sprotto', 'sprottp', 'sprottq', 'sprottr', 'sprotts', 'sprotttorus', 'tsucs2', 'zhouchen']
+
+3 attractors failed to produce a full descriptor pair, dropped: ['sprottd', 'sprottjerk', 'sprotttorus']
+
+=== Curvature ===
+  self-distance bouali: 0.0536
+  self-distance burkeshaw: 0.0288
+  self-distance chen: 0.1252
+  self-distance dadras: 0.1546
+  self-distance dequanli: 0.0739
+  self-distance finance: 0.0467
+  self-distance hadley: 0.0271
+  self-distance halvorsen: 0.0479
+  self-distance laser: 0.1062
+  self-distance liuchen: 2.5745
+  self-distance lorenz: 0.0214
+  self-distance lorenz84: 0.7104
+  self-distance luchen: 0.0096
+  self-distance luchencheng: 0.0517
+  self-distance moorespiegel: 0.1765
+  self-distance nosehoover: 0.0645
+  self-distance pehlivanwei: 0.0944
+  self-distance qichen: 0.0315
+  self-distance rayleighbenard: 0.2097
+  self-distance rikitakedynamo: 0.0186
+  self-distance rossler: 0.0303
+  self-distance rucklidge: 0.2774
+  self-distance sakarya: 0.0383
+  self-distance sprotta: 0.0299
+  self-distance sprottb: 0.1214
+  self-distance sprottc: 0.0469
+  self-distance sprotte: 0.1995
+  self-distance sprottf: 0.0908
+  self-distance sprottg: 0.0856
+  self-distance sprotth: 0.0935
+  self-distance sprottj: 0.0231
+  self-distance sprottk: 0.0224
+  self-distance sprottl: 0.0503
+  self-distance sprottm: 0.0397
+  self-distance sprottn: 0.0226
+  self-distance sprotto: 0.0433
+  self-distance sprottp: 0.1038
+  self-distance sprottq: 0.0421
+  self-distance sprottr: 0.0315
+  self-distance sprotts: 0.0257
+  self-distance tsucs2: 0.3662
+  self-distance zhouchen: 0.1447
+
+  Unreliable for Curvature (self-distance z > 3.5): ['liuchen', 'lorenz84', 'rayleighbenard', 'rucklidge', 'sprotte', 'tsucs2']
+
+  36/42 attractors reliable for Curvature
+  Mean self-distance: 0.0616
+  Mean cross-distance: 0.6706
+  Separation ratio: 10.88x
+  Novelty threshold (self + 0.25*(cross-self)): 0.2139
+
+=== D2 ===
+  self-distance bouali: 0.0530
+  self-distance burkeshaw: 0.0181
+  self-distance chen: 0.0319
+  self-distance dadras: 0.0478
+  self-distance dequanli: 0.0180
+  self-distance finance: 0.0302
+  self-distance hadley: 0.0162
+  self-distance halvorsen: 0.0200
+  self-distance laser: 0.0197
+  self-distance liuchen: 0.0212
+  self-distance lorenz: 0.0143
+  self-distance lorenz84: 0.0383
+  self-distance luchen: 0.0134
+  self-distance luchencheng: 0.0401
+  self-distance moorespiegel: 0.0299
+  self-distance nosehoover: 0.0535
+  self-distance pehlivanwei: 0.0738
+  self-distance qichen: 0.0161
+  self-distance rayleighbenard: 0.0304
+  self-distance rikitakedynamo: 0.0305
+  self-distance rossler: 0.0145
+  self-distance rucklidge: 0.0115
+  self-distance sakarya: 0.0313
+  self-distance sprotta: 0.0488
+  self-distance sprottb: 0.0190
+  self-distance sprottc: 0.0215
+  self-distance sprotte: 0.0112
+  self-distance sprottf: 0.0151
+  self-distance sprottg: 0.0202
+  self-distance sprotth: 0.0209
+  self-distance sprottj: 0.0162
+  self-distance sprottk: 0.0103
+  self-distance sprottl: 0.0125
+  self-distance sprottm: 0.0113
+  self-distance sprottn: 0.0275
+  self-distance sprotto: 0.0280
+  self-distance sprottp: 0.0157
+  self-distance sprottq: 0.0227
+  self-distance sprottr: 0.0162
+  self-distance sprotts: 0.0300
+  self-distance tsucs2: 0.0232
+  self-distance zhouchen: 0.0456
+
+  Unreliable for D2 (self-distance z > 3.5): ['pehlivanwei']
+
+  41/42 attractors reliable for D2
+  Mean self-distance: 0.0248
+  Mean cross-distance: 0.1312
+  Separation ratio: 5.30x
+  Novelty threshold (self + 0.25*(cross-self)): 0.0514

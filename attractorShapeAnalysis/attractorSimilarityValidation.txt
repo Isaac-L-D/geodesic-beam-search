@@ -1,0 +1,144 @@
+Loaded 55 known attractors: ['atmosphericregime', 'bouali', 'bouali2', 'burkeshaw', 'chen', 'chenlee', 'dadras', 'dequanli', 'finance', 'genesiotesi', 'hadley', 'halvorsen', 'laser', 'liuchen', 'lorenz', 'lorenz84', 'luchen', 'luchencheng', 'moorespiegel', 'newtonliepnik', 'nosehoover', 'panxuzhou', 'pehlivanwei', 'qichen', 'rayleighbenard', 'rikitakedynamo', 'rossler', 'rucklidge', 'sakarya', 'shimizumorioka', 'sprotta', 'sprottb', 'sprottc', 'sprottd', 'sprotte', 'sprottf', 'sprottg', 'sprotth', 'sprotti', 'sprottj', 'sprottjerk', 'sprottk', 'sprottl', 'sprottm', 'sprottn', 'sprotto', 'sprottp', 'sprottq', 'sprottr', 'sprotts', 'sprotttorus', 'tsucs2', 'valliselnino', 'wangsun', 'zhouchen']
+  atmosphericregime: failed to integrate at all, dropping from validation.
+  chenlee: discarded 1/16 runs as outliers before pooling.
+  dadras: discarded 1/16 runs as outliers before pooling.
+  finance: discarded 2/16 runs as outliers before pooling.
+  genesiotesi: failed to integrate at all, dropping from validation.
+  laser: discarded 1/16 runs as outliers before pooling.
+  lorenz: discarded 5/16 runs as outliers before pooling.
+  lorenz84: discarded 3/16 runs as outliers before pooling.
+  luchen: discarded 2/16 runs as outliers before pooling.
+  luchencheng: discarded 2/16 runs as outliers before pooling.
+  newtonliepnik: failed to integrate at all, dropping from validation.
+  panxuzhou: failed to integrate at all, dropping from validation.
+  pehlivanwei: discarded 6/16 runs as outliers before pooling.
+  qichen: discarded 1/16 runs as outliers before pooling.
+  rikitakedynamo: discarded 1/16 runs as outliers before pooling.
+  rossler: discarded 1/16 runs as outliers before pooling.
+  rucklidge: discarded 1/16 runs as outliers before pooling.
+  shimizumorioka: failed to integrate at all, dropping from validation.
+  sprotta: discarded 2/16 runs as outliers before pooling.
+  sprottb: discarded 2/16 runs as outliers before pooling.
+  sprottd: discarded 1/5 runs as outliers before pooling.
+  sprottf: discarded 1/11 runs as outliers before pooling.
+  sprotth: discarded 1/10 runs as outliers before pooling.
+  sprotti: failed to integrate at all, dropping from validation.
+  sprottk: discarded 1/11 runs as outliers before pooling.
+  sprottl: discarded 1/4 runs as outliers before pooling.
+  sprottm: discarded 1/13 runs as outliers before pooling.
+  sprotts: discarded 1/15 runs as outliers before pooling.
+  tsucs2: discarded 1/16 runs as outliers before pooling.
+  wangsun: failed to integrate at all, dropping from validation.
+
+=== Self-distance (same attractor, two different runs) ===
+  bouali: 0.0253
+  bouali2: 0.4104
+  burkeshaw: 0.0182
+  chen: 0.0205
+  chenlee: 0.0886
+  dadras: 0.0238
+  dequanli: 0.0220
+  finance: 0.0277
+  hadley: 0.0190
+  halvorsen: 0.0227
+  laser: 0.0129
+  liuchen: 0.0316
+  lorenz: 0.0216
+  lorenz84: 0.0109
+  luchen: 0.0172
+  luchencheng: 0.0194
+  moorespiegel: 0.0218
+  nosehoover: 0.0217
+  pehlivanwei: 0.0375
+  qichen: 0.0381
+  rayleighbenard: 0.0274
+  rikitakedynamo: 0.0252
+  rossler: 0.0381
+  rucklidge: 0.0159
+  sakarya: 0.0253
+  sprotta: 0.0273
+  sprottb: 0.0190
+  sprottc: 0.0274
+  sprottd: 0.0318
+  sprotte: 0.0446
+  sprottf: 0.0373
+  sprottg: 0.0333
+  sprotth: 0.0149
+  sprottj: 0.0210
+  sprottjerk: 0.0144
+  sprottk: 0.0408
+  sprottl: 0.0200
+  sprottm: 0.0122
+  sprottn: 0.0213
+  sprotto: 0.0125
+  sprottp: 0.0172
+  sprottq: 0.0290
+  sprottr: 0.0173
+  sprotts: 0.0355
+  tsucs2: 0.0181
+  valliselnino: 0.0598
+  zhouchen: 0.0249
+
+=== Unreliable (self-distance is a population outlier, z > 3.5) ===
+  bouali2: self-distance 0.4104  z=47.7
+  chenlee: self-distance 0.0886  z=8.1
+  valliselnino: self-distance 0.0598  z=4.6
+
+44/47 attractors pass the reliability check.
+
+=== Cross-attractor distance matrix (using descA for each) ===
+(matrix too large to print inline - 47x47, see /home/isaac-dash/Documents/Chaos Theory Project/SpaceOfKnownAttractors/attractorShapeAnalysis/attractorSimilarityMatrix.csv)
+
+Mean self-distance (same attractor, all 47): 0.0345
+Mean cross-distance (different attractors, all 47): 0.1405
+Separation ratio, all attractors: 4.07x
+Separation ratio, reliable-only (44): 5.08x
+
+=== Nearest neighbor for each attractor (excluding itself) ===
+  bouali -> closest to qichen (distance 0.045, vs its own self-distance 0.025)
+  bouali2 -> closest to chenlee (distance 0.322, vs its own self-distance 0.410)  [UNRELIABLE]
+  burkeshaw -> closest to sprottc (distance 0.019, vs its own self-distance 0.018)
+  chen -> closest to rayleighbenard (distance 0.026, vs its own self-distance 0.020)
+  chenlee -> closest to sprottjerk (distance 0.042, vs its own self-distance 0.089)  [UNRELIABLE]
+  dadras -> closest to qichen (distance 0.029, vs its own self-distance 0.024)
+  dequanli -> closest to sprottg (distance 0.048, vs its own self-distance 0.022)
+  finance -> closest to rucklidge (distance 0.021, vs its own self-distance 0.028)
+  hadley -> closest to lorenz84 (distance 0.041, vs its own self-distance 0.019)
+  halvorsen -> closest to sprottm (distance 0.041, vs its own self-distance 0.023)
+  laser -> closest to sprottn (distance 0.036, vs its own self-distance 0.013)
+  liuchen -> closest to valliselnino (distance 0.058, vs its own self-distance 0.032)
+  lorenz -> closest to burkeshaw (distance 0.029, vs its own self-distance 0.022)
+  lorenz84 -> closest to hadley (distance 0.041, vs its own self-distance 0.011)
+  luchen -> closest to sakarya (distance 0.022, vs its own self-distance 0.017)
+  luchencheng -> closest to sprottg (distance 0.038, vs its own self-distance 0.019)
+  moorespiegel -> closest to dadras (distance 0.034, vs its own self-distance 0.022)
+  nosehoover -> closest to sprotta (distance 0.049, vs its own self-distance 0.022)
+  pehlivanwei -> closest to sprottq (distance 0.061, vs its own self-distance 0.038)
+  qichen -> closest to dadras (distance 0.029, vs its own self-distance 0.038)
+  rayleighbenard -> closest to chen (distance 0.026, vs its own self-distance 0.027)
+  rikitakedynamo -> closest to luchencheng (distance 0.045, vs its own self-distance 0.025)
+  rossler -> closest to rucklidge (distance 0.028, vs its own self-distance 0.038)
+  rucklidge -> closest to finance (distance 0.021, vs its own self-distance 0.016)
+  sakarya -> closest to luchen (distance 0.022, vs its own self-distance 0.025)
+  sprotta -> closest to nosehoover (distance 0.049, vs its own self-distance 0.027)
+  sprottb -> closest to sprottc (distance 0.017, vs its own self-distance 0.019)
+  sprottc -> closest to sprottb (distance 0.017, vs its own self-distance 0.027)
+  sprottd -> closest to bouali (distance 0.047, vs its own self-distance 0.032)
+  sprotte -> closest to sprottf (distance 0.045, vs its own self-distance 0.045)
+  sprottf -> closest to sprotte (distance 0.045, vs its own self-distance 0.037)
+  sprottg -> closest to luchencheng (distance 0.038, vs its own self-distance 0.033)
+  sprotth -> closest to sakarya (distance 0.025, vs its own self-distance 0.015)
+  sprottj -> closest to sprottn (distance 0.017, vs its own self-distance 0.021)
+  sprottjerk -> closest to sprottn (distance 0.039, vs its own self-distance 0.014)
+  sprottk -> closest to sprottj (distance 0.022, vs its own self-distance 0.041)
+  sprottl -> closest to chen (distance 0.028, vs its own self-distance 0.020)
+  sprottm -> closest to halvorsen (distance 0.041, vs its own self-distance 0.012)
+  sprottn -> closest to sprottj (distance 0.017, vs its own self-distance 0.021)
+  sprotto -> closest to sprottk (distance 0.025, vs its own self-distance 0.013)
+  sprottp -> closest to sprotth (distance 0.034, vs its own self-distance 0.017)
+  sprottq -> closest to lorenz (distance 0.035, vs its own self-distance 0.029)
+  sprottr -> closest to dadras (distance 0.044, vs its own self-distance 0.017)
+  sprotts -> closest to sprottl (distance 0.045, vs its own self-distance 0.036)
+  tsucs2 -> closest to pehlivanwei (distance 0.115, vs its own self-distance 0.018)
+  valliselnino -> closest to liuchen (distance 0.058, vs its own self-distance 0.060)  [UNRELIABLE]
+  zhouchen -> closest to qichen (distance 0.094, vs its own self-distance 0.025)

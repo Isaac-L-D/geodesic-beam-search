@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+
+# JiTCODE compiled cache (regenerates automatically on first run)
+jitcodeCompiledCache/
+
+# Editor/IDE
+.vscode/
+.claude/
+
+# LaTeX build artifacts (tectonic cleans up .aux/.out/etc. itself; these two remain)
+paper/*.log
+paper/*.blg
+
+# Search checkpoints: resumable run-state, not needed to reproduce published results
+geodesicBeamSearch/output/checkpoints/
+
+# Trajectory data: too large for git, released on Zenodo instead (see paper's
+# Code and Data Availability section for the DOI)
+geodesicBeamSearch/output/*/discoveryTrajectories/
+geodesicBeamSearch/output/*/exploredDirections.npz
+
+# A round beyond what the paper reports (started but never completed/classified)
+geodesicBeamSearch/output/round_016/
+
+# Stray backup files
+*.bak*
+
+# Local staging area for Zenodo upload, not meant for git
+zenodoUpload/
